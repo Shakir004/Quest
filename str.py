@@ -201,3 +201,46 @@
 
 
 
+"""rsplit is used to split right to left"""
+# s = 'welcome to world of python'
+# print(s.rsplit(" ",3))
+
+
+
+"""join method is used to join the line of code"""
+# s = 'welcome to world of python'
+# splited = s.split()
+# print(splited)
+# joined_string = "".join(splited)
+# print(joined_string)
+# joined_string = "_".join(splited)
+# print(joined_string)
+
+
+"""partitioning is used to partitining a given word"""
+
+# s = "job = python"
+# print(s.partition('='))
+
+# s = "job = python"
+# print(s.partition('python'))
+
+# s = "python"
+# print(s.partition('python'))
+
+# s = "python"
+# print(s.partition('x'))
+
+# s = 'my name is shakir'
+# print(s.partition(" "))
+
+"""rpartition"""
+# s = 'my name is shakir'
+# print(s.rpartition(" "))
+
+
+
+
+
+
+
