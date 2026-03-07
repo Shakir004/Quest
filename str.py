@@ -1,3 +1,4 @@
+""""""
 # s = "niyas"
 # print(s)
 # s[::-1]
@@ -238,7 +239,61 @@
 # s = 'my name is shakir'
 # print(s.rpartition(" "))
 
+"""encoding and decoding"""
+"""Encoding it is used to convert to byte code thats why its output will be   b'shakir' """
+# name = 'shakir'
+# print(name.encode())
 
+# name = 'shakir'
+# print(name.encode(encoding="utf-8"))
+
+# name = 'shakir'
+# print(name.encode(encoding="utf-8",errors="strict"))
+
+
+
+"""decoding is used to convert to byte code to string format"""
+# name = "shakir"
+# encoded_name = name.encode()
+# print(encoded_name)
+# decoded_name = encoded_name.decode()
+# print(decoded_name)
+
+
+"""miscelneus"""
+# print("hello\tpython")
+
+# print("hello\tpython".expandtabs())
+
+# print("hello\tpython".expandtabs(10))
+
+# print("hello\tpython".expandtabs(15))
+
+"""expandtabs"""
+# s = "hello\tpython"
+# print(s.expandtabs(15))
+
+"""equation= spaces=tabsize(current_position % tabsize)"""
+
+
+"""translate and maketranslate"""
+# print("banana".translate({97:"x"}))
+# print("hello world".translate({111:'0'}))
+
+# print(chr(111))
+
+"""maketrance"""
+# text = 'xxxxxxxxxxyyyyyyyyyyyyyyyzzzzzzzzzzzzzzz'
+# table = text.maketrans('x','a')
+# print(text.translate(table))
+
+
+# text = 'xxxxxxxxxxyyyyyyyyyyyyyyyzzzzzzzzzzzzzzz'
+# table = text.maketrans('x','a','a')
+# print(text.translate(table))
+
+
+"""split,join,replace,strip,prifix,suffix,isalpha,isdigit,index,find,count,upper,lower,title"""
 
 
 

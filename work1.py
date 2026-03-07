@@ -1,4 +1,4 @@
-#  Write a program to print numbers from 1 to 20 using range().
+""" Write a program to print numbers from 1 to 20 using range()."""
 
 # for i in range(0,21):
 #     print(i
@@ -179,9 +179,11 @@
 
 # Develop a program that accepts an integer 'n' and computes the value of n + nn + nnn
 # n = int(input("enter a number:"))
-# nn = n + n == nn
-# nnn = n + n + n == nnn
+# nn = n + n+10*n + n + n+10*n
+# nnn = n + n+10*n + n + n+10*n + n + n+10*n
 # total = n + nn + nnn
 # print(total)
+
+
 
 

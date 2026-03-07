@@ -96,6 +96,58 @@
 # print("The result is:", result)   
 
 
+# Write a program to input a number of days and convert it into:
+   #  a) Weeks
+   #  b) Remaining days
+
+
+# total_days = int(input("enter the number of days:"))
+# weeks  = total_days // 7
+# remaing_days = total_days % 7
+# print(f"{total_days} days is equal to {weeks} weeks and {remaing_days} days.")
+
+
+
+#  Write a program to input a total amount and number of people, then calculate how much each person should pay.
+# total_amount = int(input("enter the total amount:"))
+# total_people = int(input("enter the number of people:")) 
+# total = total_amount / total_people
+# print(total)
+
+
+#  Write a program to input a 3-digit number and calculate the sum of its digits.
+   #  (Hint: use // and % operators)
+
+# n = int(input("Enter a 3-digit number: "))
+
+# d1 = n // 100       
+# d2 = (n // 10) % 10 
+# d3 = n % 10         
+
+# print("Sum of digits:", d1 + d2 + d3)
+
+
+
+# Write a program to input a 3-digit number and reverse the number.
+# n = int(input("Enter a 3-digit number: "))
+
+# d1 = n // 100         
+# d2 = (n // 10) % 10   
+# d3 = n % 10            
+
+# rev = (d3 * 100) + (d2 * 10) + d1
+
+# print("Reversed:", rev)
+
+
+
+
+
+
+
+
+
+
 
 
 
