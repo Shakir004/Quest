@@ -63,6 +63,80 @@
 # print(f"The middle character(s): {middle}")
 
 
+#  Write a program to check whether a string is a palindrome using  slicing.
+# word = input("Enter a word:")
+# if word == word[::-1]:
+#     print("its a palintrome")
+# else:
+#     print("its not a palitrome")
+
+
+#  Given a string, extract the first half and second half using slicing
+    # and print them separately.
+
+
+# word = input("enter a string:")
+# middle = len(word) // 2 
+# first_half = word[:middle]
+# second_half = word[middle:]
+# print(first_half)
+# print(second_half)
+
+
+# Write a program to remove the first and last two characters from a
+    # string using slicing.
+
+# str = input("enter a string:")
+# print(str[2:-2])
+
+# Given a string, print characters from index 1 to the second last
+    # character.
+
+# str = input("enter a str:")
+# print(str[1:-1])
+
+
+# Write a program to extract every third character from a string using
+    # slicing.
+
+# str = input("enter a string:")
+# print(str[::3])
+
+
+# 16. Given a string, reverse only the first half of the string using
+    # slicing.
+
+# str  = input('enter a string:')
+# mid = len(str) // 2
+# result = str[:mid][::-1] + str[mid:]
+# print(result)
+
+
+
+# str = input('enter astring:')
+# mid = len(str) // 2
+# result = str[:mid][::-1] + str[mid:]
+# s = result
+# print(s)
+
+# 17. Write a program to extract the domain name from an email ID using # slicing
+
+# str = input('enter a mail id:')
+# domain = str.index("@")
+# index_1 = str[domain + 1:]
+# print(index_1)
+
+
+
+# p= (input('enter a str:'))
+# domain = p.index('@')
+# in = p[domain + 1:]
+# print(in)
+
+
+
+
+
 
 
 
