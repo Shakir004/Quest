@@ -139,6 +139,39 @@
 
 # print("Reversed:", rev)
 
+#  Write a program to input total seconds and convert it into:
+   #  a) Minutes
+   #  b) Remaining seconds
+
+# second = int(input("enter the second:"))
+# minute = second / 60
+# remaing_seconds = 60 - second 
+# print(f"the minute is {minute}  and remaing second is {remaing_seconds} ")
+
+
+#  Write a program to input the total marks of 5 subjects and calculate:
+   #  a) Total marks
+   #  b) Average marks
+
+# total = int(input("enter the maths mark:"))
+# total1 = int(input("enter the phy mark:"))
+# total2 = int(input("enter the bio mark:"))
+# total3 = int(input("enter the che mark:"))
+# total4 = int(input("enter the eng mark:"))
+# total_mark = total + total1 + total2 + total3 + total4
+# average_mark = total_mark / 6
+# print(f"total mark is {total_mark}")
+# print(f"average mark is {average_mark}")
+
+# Write a program to input a number and check whether it is even or odd using the modulus operator.
+
+# num = int(input("enter a  number:"))
+# even = num // 2 ==0
+# odd = num // 2 == 1
+# print(even)
+# print(odd)
+
+
 
 
 
