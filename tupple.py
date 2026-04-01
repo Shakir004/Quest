@@ -2,11 +2,16 @@
 # print(t1)
 # print(type(t1))
 
+
 # sample = tuple()
 # print(type(sample))
 
+
+
 # t2 =  ( 10, )               # comma ( , )  ittal mathree tuple aavullu
 # print(type(t2))
+
+
 
 # # Length 
 # tup = (10, 10.2, 'jasil', [1,2,3,4,5])
@@ -18,14 +23,14 @@
 # print(t5[2])
 
 
-'Add & Update '
+# 'Add & Update '
 
 # t1 = ( 10, 20, 30 )
 # t1 += ( 2004, )
 # print(t1)
 
 
-'Tuple convert to List '
+# 'Tuple convert to List '
 # Tuple entheelum items change cheyyaan List k convert cheyyuka
 
 # t1 = ( 10, 20, 30 )
@@ -33,12 +38,12 @@
 # sample_list = list(t1)
 # sample_list.append(2004)
 
-# Then List convert to tuple 
+# # Then List convert to tuple 
 # t1 = tuple(sample_list)
 # print(t1)
 
 
-'Tuple Unpacking'
+# 'Tuple Unpacking'
 
 # person = ('jasil','yaseen','shakir','Niyas')
 # p1, p2, p3, p4 = person
@@ -61,7 +66,7 @@
 # print(person)
 
 
-'delete'   # memmory il ninn thenne delete cheyyan
+# 'delete'   # memmory il ninn thenne delete cheyyan
 
 # person1 = ('jasil','yaseen','shakir','Niyas')
 # del person1
@@ -70,11 +75,12 @@
 
 
 'slice'
-# person = ('jasil','yaseen','shakir','Niyas')
+person = ('jasil','yaseen','shakir','Niyas')
 # print(person[1])
 # print(person[1:])
 # print(person[-1])
 # print(person[::])
+
 
 
 # person = ('jasil','yaseen','shakir','Niyas')
@@ -112,5 +118,7 @@
 # *
 # person = ('jasil','yaseen','shakir','Niyas')
 # print(person * 3)
+
+
 
 

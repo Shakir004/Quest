@@ -2,6 +2,9 @@
 # sample_set = set ()
 # print(type(sample_set))
 
+# sample = set ()
+# print(type(sample))
+
 
 # sample_set = { 1, 2, 3, 10.25, 0.025, 'Jasil', "Python"}
 # print(type(sample_set))
@@ -77,7 +80,7 @@
 # person.update({"Rajin",100})
 # print(person)     
 
-
+# in list
 # person = { 'yaseen', 'jasil', 'niyas', 'shakir'}
 
 # person.update(["Rajin",100])
@@ -102,7 +105,7 @@
 # 'Pop'
 
 # person = { 'yaseen', 'jasil', 'niyas', 'shakir'}
-# person.pop
+# person.pop()
 # print(person)
 
 
@@ -117,6 +120,10 @@
 # 'Clear'
 
 # person = { 'yaseen', 'jasil', 'niyas', 'shakir'}
-# person.clear( )
+# person.clear()
 # print(person)
+
+
+
+
 

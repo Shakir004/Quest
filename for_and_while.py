@@ -76,10 +76,16 @@
 # for char in name:
 #     print(char)
 
+# for i in range(11):
+#     print(i)
 
 # for i in range(10):
 #     print(i)
 
+
+
+# for i in range(21):
+#     print(i)
 
 # num = int(input("enter a number:"))
 

@@ -47,7 +47,7 @@
 # print(x)
 
 
-# str ='shakir'
+# str = 'shakir'
 # x =[i for i in str if i in "AEIOUaeiou"]
 # print(x)
 
@@ -61,3 +61,12 @@
 # s = ['1','2','3','4','string']
 # a=[int(i)for i in s if i.isdigit()]
 # print(a)
+
+# 1 to 10
+# a = []
+# for i in range(1,11):
+#     a.append(i)
+# print(a)
+
+
+
