@@ -120,6 +120,7 @@
 # set1.symmetric_difference_update(set2)
 # print(set1)
 """28. Write a program to check if one set is a subset of another set."""
+# set1 = {1,2,34,5,6,7,8,9,0}
 
 """29. Write a program to check if one set is a superset of another set."""
 """30. Write a program to check if two sets are disjoint."""
