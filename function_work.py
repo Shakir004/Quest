@@ -183,17 +183,65 @@
 
 
 """47. Write a function `is_eligible_for_vote(age)`."""
+# def is_eligible_for_vote(age):
+#     if age>=18:
+#         print("eligible for vote")
+#     else:
+#         print("not eligible for vote")
+    
+# is_eligible_for_vote(18)
+
+
 
 """48. Write a function `is_eligible_for_job(age, degree_completed)`."""
 
-"""49. Write a function `calculate_overtime(hours_worked)`."""
+# def is_eligible_for_job(age,degree_completed):
+#     if age>=18 and degree_completed:
+#         print("your eligible for job")
+#     else:
+#         print("sorry next time")
 
+    
+# print(is_eligible_for_job(18, degree_completed=False))
+
+    
+
+
+"""49. Write a function `calculate_overtime(hours_worked)`."""
+# def calculate_overtime(hours_worked):
+#     if hours_worked>=9:
+#         print("overtime worked")
+#     else:
+#         print("not overtime")
+
+# calculate_overtime(3)
+    
 """50. Write a function `check_free_shipping(cart_total)`."""
+# def check_free_shipping(car_total):
+#     if car_total>=500:
+#         print("eligible for free car shipping")
+#     else:
+#         print("not eligible for free shipping car")
+
+# check_free_shipping(5000)
+
+
 
 """51. Write a function `check_coupon_valid(amount)`:
     Apply coupon only if amount >= 1000."""
+# def check_coupon_valid(amount):
+#     if amount>=1000:
+#         print("coupon is applied")
+#     else:
+#         print("without coupon applied ")
+
+# check_coupon_valid(10000)
+
+
 
 """52. Write a function `calculate_mobile_bill(call_minutes, sms_count, data_used)`."""
+
+
 
 """53. Write a function `loan_eligibility(salary, cibil_score)`."""
 
